@@ -8,5 +8,5 @@ app = Flask(__name__)
 def hello_world():
     return render_template("index.html")
 @app.route("/hello")
-def hello_world():
+def hello():
     return "hello world"
